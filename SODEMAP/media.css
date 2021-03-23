@@ -1,0 +1,68 @@
+/******************************
+*****RESPONSIVE (Mobile)*******
+*******************************/
+
+@media screen and (max-width: 479px) {
+
+  #body{
+    flex-direction: column;
+  }
+
+  #resum{
+    padding: 0 7px;
+  }
+
+  .logo{
+    height: 18vh;
+    width: auto;
+  }
+
+  /*MAP*/
+  #macarte {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 90vw;
+    max-height: 80vw;
+    margin-top: 10px;
+  }
+
+  /*LEGENDE*/
+  .marqueur {
+    width: auto;
+    height: 4.5rem;
+  }
+
+  #mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  #mark > li {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 5px 0;
+  }
+  #mark > li >p{
+    margin: 0;
+  }
+
+  li {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+  }
+
+  li > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+  }
+}

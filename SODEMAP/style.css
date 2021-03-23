@@ -1,0 +1,105 @@
+#macarte {
+  width: 80%;
+  height: 90vh;
+  margin: 20px;
+  vertical-align: middle;
+}
+
+.carbu
+{
+    background: url("js/images/carburant.png") no-repeat round;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.gare
+{
+    background: url("js/images/gare.png") no-repeat round;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.musee
+{
+    background: url("js/images/musee.png") no-repeat round;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.hide
+{
+  display: none;
+}
+
+#body{
+  background-color: #F9943B;
+  display: flex;
+  overflow: hidden;
+}
+
+.entete{
+  text-align: center;
+}
+.logo{
+  width: 40%;
+}
+
+.recherche{
+  margin: 0 30px;
+}
+
+.none{
+  display: none;
+}
+
+.marqueur{
+  width: 10%;
+}
+ul{
+  list-style-type: none;
+}
+
+li{
+  display: flex;
+}
+
+p{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+/*LOADER*/
+.loader {
+  background : url('assets/img/burger.gif') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  cursor : wait;
+  }
+
+#fondOrange{
+  position: absolute;
+  z-index: 9999;
+
+  background: #F9943B;
+}
+
+#chargement{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 7px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 479px) {
+  #chargement{
+    width: 90%;
+    top: 30%;
+    left: 5%;
+  }
+}
