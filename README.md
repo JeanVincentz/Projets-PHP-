@@ -12,6 +12,6 @@ fait en groupe -> [Florian](https://github.com/floriandreau) , [Romain](https://
 ### mais aussi les tables de multiplication de 1 à 10 avec aussi un panel de Gestion de connexion simple:
 
 - Maths <br>
-Porjet Solo
+Projet Solo
 - Gestions <br>
-Porjet Solo
+Projet Solo
